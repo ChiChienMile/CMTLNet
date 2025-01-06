@@ -1,5 +1,5 @@
 # CMTLNet
-This repository provides a PyTorch implementation of the paper "Cooperative Multi-task Learning and Interpretable Image Biomarkers for Glioma Grading and Molecular Subtyping." (MedIA 2024)
+This repository provides a PyTorch implementation of the paper "Cooperative Multi-task Learning and Interpretable Image Biomarkers for Glioma Grading and Molecular Subtyping." (MedIA 2024) [https://doi.org/10.1016/j.media.2024.103435](https://doi.org/10.1016/j.media.2024.103435)
 
 <figure>
   <img src="CMTLNet.png" alt="Architecture Diagram" width="1200">
@@ -132,5 +132,3 @@ If you use this code for your research, please cite our paper:
   author = {Qijian Chen and Lihui Wang and Zeyu Deng and Rongpin Wang and Li Wang and Caiqing Jian and Yue-Min Zhu}
 }
 ```
-You can also find the paper at the following DOI link:  
-[https://doi.org/10.1016/j.media.2024.103435](https://doi.org/10.1016/j.media.2024.103435)
