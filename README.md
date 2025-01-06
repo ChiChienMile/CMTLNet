@@ -64,6 +64,45 @@ Crop and pad the background of the data to a size of **160×192×160** voxels.
 
 ## Model Construction
 
+### Hardware Requirements
+
+- **GPU**: NVIDIA RTX A6000
+- **Memory**: >=40,000 MiB
+
+### Software Dependencies
+
+Ensure your system has the following software installed with the specified versions:
+
+- **Python** ≥ 3.6.13
+- **PyTorch** == 1.10.1
+- **NumPy** == 1.19.5
+- **MONAI** == 0.8.1
+- **Nibabel** == 3.2.2
+- **Scikit-Image** == 0.17.2
+- **Scikit-Learn** == 0.24.2
+- **SimpleITK** == 2.1.1.2
+
+### Installation
+
+It is recommended to use a virtual environment to manage dependencies. You can use `venv` or `conda`.
+
+#### Using `venv` and `pip`:
+
+```bash
+# Create and activate a virtual environment
+python3 create -n myenv python==3.6.13
+source activate myenv
+
+# Install dependencies
+pip install torch==1.10.1 \
+            numpy==1.19.5 \
+            monai==0.8.1 \
+            nibabel==3.2.2 \
+            scikit-image==0.17.2 \
+            scikit-learn==0.24.2 \
+            SimpleITK==2.1.1.2
+```
+
 ### Model Overview
 
 The proposed **CMTLNet** consists of two main components:
