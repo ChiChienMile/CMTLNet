@@ -84,9 +84,9 @@ Ensure your system has the following software installed with the specified versi
 
 ### Installation
 
-It is recommended to use a virtual environment to manage dependencies. You can use `venv` or `conda`.
+It is recommended to use a virtual environment to manage dependencies. You can use `conda`.
 
-#### Using `venv` and `pip`:
+#### Using `pip`:
 
 ```bash
 # Create and activate a virtual environment
