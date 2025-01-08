@@ -462,7 +462,7 @@ class UFE_E2(nn.Module):
         # Compute the dot product of Fl with itself: denominator of the projection scalar
         denominator = torch.sum(Fl * Fl, dim=-1, keepdim=True) + 1e-6  # Add epsilon to prevent division by zero
         # Calculate the projection scalar and multiply by Fl to get the projection vector
-        projection = numerator / denominator * Fl
+        projection = (numerator / denominator） * Fl
         # Subtract the projection from Fl' to obtain the component of Fl' orthogonal to Fl
         out = Fl_prime - projection
         # Reshape the output back to the original spatial dimensions
