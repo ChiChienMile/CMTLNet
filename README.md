@@ -11,6 +11,18 @@ Cooperative Multi-Task Learning Network (CMTLNet) consists of three modules: a T
      with spatial and channel attentions and then predict the multiple glioma classification tasks.</figcaption>
 </figure>
 
+## Citation
+If you use this code for your research, please cite our paper:
+```bibtex
+@article{chen2025103435,
+  title = {Cooperative multi-task learning and interpretable image biomarkers for glioma grading and molecular subtyping},
+  journal = {Medical Image Analysis},
+  pages = {103435},
+  year = {2025},
+  issn = {1361-8415},
+  author = {Qijian Chen and Lihui Wang and Zeyu Deng and Rongpin Wang and Li Wang and Caiqing Jian and Yue-Min Zhu}
+}
+```
 ## Data Acquisition
 
 The following public datasets are utilized in this project:
@@ -160,16 +172,3 @@ This project is licensed under the MIT License.
 ## Acknowledgement
 Thanks to all the providers of the public datasets used in this project.
 Appreciation to the contributors of the open-source projects such as FSL, MRIConvert and ANTsPy.
-
-## Citation
-If you use this code for your research, please cite our paper:
-```bibtex
-@article{chen2024103435,
-  title = {Cooperative multi-task learning and interpretable image biomarkers for glioma grading and molecular subtyping},
-  journal = {Medical Image Analysis},
-  pages = {103435},
-  year = {2024},
-  issn = {1361-8415},
-  author = {Qijian Chen and Lihui Wang and Zeyu Deng and Rongpin Wang and Li Wang and Caiqing Jian and Yue-Min Zhu}
-}
-```
