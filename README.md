@@ -1,6 +1,8 @@
 # CMTLNet
 This repository provides a PyTorch implementation of the paper "Cooperative Multi-task Learning and Interpretable Image Biomarkers for Glioma Grading and Molecular Subtyping." (MedIA 2025) [https://doi.org/10.1016/j.media.2024.103435](https://doi.org/10.1016/j.media.2024.103435)
 
+Cooperative Multi-Task Learning Network (CMTLNet) consists of three modules: a Task-Common Feature Extraction (CFE) module, a Task-Specific Unique Feature Extraction (UFE) module, and a Unique-Common Feature Collaborative Classification (UCFC) module. Utilizing 3D T1 contrast-enhanced (T1C) and T2-weighted (T2W) MRI data, CMTLNet simultaneously predicts the 1p/19q chromosomal deletion status, IDH mutation status, and histological grading (low-grade glioma [LGG], high-grade glioma [HGG]) of gliomas.
+
 <figure>
   <img src="CMTLNet.png" alt="Architecture Diagram" width="1200">
   <figcaption>Figure 1: The overall workflow of the proposed CMTLNet. It consists of three main parts: the first part is task-common feature extraction (CFE) module which is used
