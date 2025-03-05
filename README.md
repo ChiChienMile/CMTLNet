@@ -20,6 +20,8 @@ If you use this code for your research, please cite our paper:
   pages = {103435},
   year = {2025},
   issn = {1361-8415},
+  doi = {https://doi.org/10.1016/j.media.2024.103435},
+  url = {https://www.sciencedirect.com/science/article/pii/S1361841524003608},
   author = {Qijian Chen and Lihui Wang and Zeyu Deng and Rongpin Wang and Li Wang and Caiqing Jian and Yue-Min Zhu}
 }
 ```
